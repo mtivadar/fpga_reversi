@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ocsvn/othellogame/!svn/ver/2/othellogame/trunk/rtl
+END
+rs232.v
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ocsvn/othellogame/!svn/ver/3/othellogame/trunk/rtl/rs232.v
+END
+board_move.v
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ocsvn/othellogame/!svn/ver/2/othellogame/trunk/rtl/board_move.v
+END
+xy_calculate.v
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ocsvn/othellogame/!svn/ver/2/othellogame/trunk/rtl/xy_calculate.v
+END
+reversi.v
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ocsvn/othellogame/!svn/ver/2/othellogame/trunk/rtl/reversi.v
+END
+vga_controller.v
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ocsvn/othellogame/!svn/ver/2/othellogame/trunk/rtl/vga_controller.v
+END
+time_analysis.v
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ocsvn/othellogame/!svn/ver/2/othellogame/trunk/rtl/time_analysis.v
+END
+game_ai.v
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ocsvn/othellogame/!svn/ver/2/othellogame/trunk/rtl/game_ai.v
+END
+heuristics.v
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ocsvn/othellogame/!svn/ver/2/othellogame/trunk/rtl/heuristics.v
+END
+hvsync_gen.v
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ocsvn/othellogame/!svn/ver/2/othellogame/trunk/rtl/hvsync_gen.v
+END
+move_cell.v
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ocsvn/othellogame/!svn/ver/2/othellogame/trunk/rtl/move_cell.v
+END
+moves_map.v
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ocsvn/othellogame/!svn/ver/2/othellogame/trunk/rtl/moves_map.v
+END
+RB_cnt.v
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ocsvn/othellogame/!svn/ver/2/othellogame/trunk/rtl/RB_cnt.v
+END
+b_move.v
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ocsvn/othellogame/!svn/ver/2/othellogame/trunk/rtl/b_move.v
+END
+memory_bram.v
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ocsvn/othellogame/!svn/ver/2/othellogame/trunk/rtl/memory_bram.v
+END

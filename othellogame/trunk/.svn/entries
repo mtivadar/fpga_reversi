@@ -1,0 +1,40 @@
+9
+
+dir
+2
+http://opencores.org/ocsvn/othellogame/othellogame/trunk
+http://opencores.org/ocsvn/othellogame
+
+
+
+2010-10-25T13:37:38.029378Z
+2
+marius_mtm
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c5101e59-0ebe-44ce-8936-84e10d892401
+
+test
+dir
+
+rtl
+dir
+
+generator
+dir
+
+ucf
+dir
+
