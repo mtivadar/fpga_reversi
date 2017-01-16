@@ -5,21 +5,22 @@ VGA output, pushbuttons input (for playing), using Spartan3E Starter Kit board.
 
 
 
-General Features 
+<h1>General Features </h1>
 
-Transition from a current game state to another is done in 1cc.
-Determining all possible transitions from a game state to another is also done in 1cc.
-Evaluation of one game state is done in 1cc.
-The heuristic evaluation function consists of pattern matching between current game state configuration and empirically determined board patterns (about 100 patterns), all comparisons are done concurrently.
-Capable of analyzing ~5M game states/second, compared to ~0.2M game states/second obtained with a software version running on P4 processor.
-MinMax with alpha/beta pruning, but no selective search.
-Maximum frequency is 50MHz.
-All RTLs are Verilog. Some RTL's are python generated.
-VGA output of the board game.
-RS232 transmission: AI-time in clock cycles, number of game positions analyzed.
-Number of Slices: 3292 out of 4656 (70%).
-Number of BRAMs: 8 out of 20 (40%).
-Description         
+ * Transition from a current game state to another is done in 1cc.
+ * Determining all possible transitions from a game state to another is also done in 1cc.
+ * Evaluation of one game state is done in 1cc.
+ * The heuristic evaluation function consists of pattern matching between current game state configuration and empirically determined board patterns (about 100 patterns), all comparisons are done concurrently.
+ * Capable of analyzing ~5M game states/second, compared to ~0.2M game states/second obtained with a software version running on P4 processor.
+ * MinMax with alpha/beta pruning, but no selective search.
+ * Maximum frequency is 50MHz.
+ * All RTLs are Verilog. Some RTL's are python generated.
+ * VGA output of the board game.
+ * RS232 transmission: AI-time in clock cycles, number of game positions analyzed.
+ * Number of Slices: 3292 out of 4656 (70%).
+ * Number of BRAMs: 8 out of 20 (40%).
+
+<h1>Description         </h1>
 
 A Game Tree is a directed graph whose nodes are states of a game. A game state is a configuration of the game on a specific time. The complete game tree of a game consists of all possible game states, from the initial game position to the every possible end-game position, containing all transitions from a game state. Of course, when analyzing a game you cannot look at every game state to choose the best move using reasonable time resources, so this problem is intractable. 
 
