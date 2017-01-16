@@ -28,3 +28,6 @@ Anyway, AI for such games are based on searching only a partial game tree starti
 The well-known algorithm to search a game tree and choosing the best move, is MinMax. This search method will start from a game state considered initial game state and expand it to generate all possible next-states, and then for every new state will generate the next game states and so on, until a specific depth is reached. When a leaf-node is reached, we can consider that to be an end-game state (because we cannot see deeper), and we will evaluate it. Evaluation of a game state should return a score reflecting the win-lose quantity. Then, going backwards in game tree, we have to maximize or minimize this value. For example, for your point of view, you will have to maximize your wining score and minimize mine. So from a game state you will pick the move which is best for you and worst for me. When it's mine turn, I will maximize my winning score and so on. MinMax will consider playing both roles, alternating. This mathematical model works very well for turn based games like chess, reversi/othello, checkers, etc. 
 
 An improvement for this search is alpha-beta pruning. The difference is that will not search all branches from the partial game tree. This improvement is also implemented in this system. 
+
+
+also on: https://opencores.org/project,othellogame
